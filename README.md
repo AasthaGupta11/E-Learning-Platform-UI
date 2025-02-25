@@ -41,3 +41,5 @@ Course ratings and reviews to allow students to rate courses and provide feedbac
 Integration with a learning management system (LMS) to manage courses, quizzes, and certifications.
 
 This E-Learning Platform UI provides an excellent foundation for anyone looking to build or enhance an online education platform. With its responsive design, interactive elements, and well-structured pages, this project is an ideal starting point for creating a feature-rich online learning environment. Feel free to fork, modify, and contribute to this project to suit your needs or to explore potential improvements.
+
+**OUTPUT**: ![Image](https://github.com/user-attachments/assets/39e556fa-e53f-44bb-a48d-fc7f088209f1)
