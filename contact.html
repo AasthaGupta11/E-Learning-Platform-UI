@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <div class="logo"><i class='bx bx-book-reader'></i></div>
+        <h2> eLEARNING </h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#joinnow">Join Now <i class='bx bxs-right-arrow-alt'></i></a></li>
+        </ul>
+    </nav>
+    <!--START OF THE PAGE-->
+    <section>
+        <div class="portion-2">
+            <div class="left">
+                <h4>BEST ONLINE COURSES</h4>
+                <h1>Get Educated Online <br> From Your Home</h1>
+                <p>Whether you're looking to advance your career, master a new skill, or simply explore new subjects, we
+                    offer a range of engaging, high-quality courses to help you achieve your goals.</p>
+                <div class="top_btn">
+                    <button class="btn">Read More</button>
+                    <button class="btn">Join Now</button>
+                </div>
+            </div>
+            <div class="right">
+                <img src="carousel-1.jpg">
+            </div>
+        </div>
+    </section>
+    <!--CONTACT MAIN SECTION-->
+    <section class="contact_sec">
+        <h4>CONTACT US</h4>
+        <h2>Contact For Any Query</h2>
+        <div class="box3">
+            <div class="box1">
+                <h3>Get In Touch</h3>
+                <p>We'd love to hear from you! Whether you have a question, suggestion, or need assistance, feel free to reach out. Our team is here to help and will get back to you as soon as possible.</p>
+                <div class="cnc">
+                    <i class='bx bx-current-location'></i>
+                    <div><p class="blue">Office</p>
+                    <p>123 Street, New York, USA</p></div>
+                </div>
+                <div class="cnc">
+                    <i class='bx bxs-phone'></i>
+                    <div><p class="blue">Mobile</p>
+                    <p>+012 345 67890</p></div>
+                </div>
+                <div class="cnc">
+                    <i class='bx bxs-envelope' ></i>
+                    <div><p class="blue">E-Mail</p>
+                    <p>info@example.com</p></div>
+                </div>
+            </div>
+            <div class="box1">
+                <img src="address.png" alt="">
+            </div>
+            <div class="box1">
+                <form onsubmit="return cnc_validate(event)">
+                    <div><input type="text" placeholder="    Your Name" id="name">
+                    <input type="email" placeholder="    Your E-Mail" id="mail"></div>
+                    <input type="text" placeholder="    Subject" id="subject">
+                    <input type="text" placeholder="    Message" class="txtarea" id="txt">
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--BOTTOM OF THE PAGE-->
+    <section class="bottom" id="joinnow">
+        <div class="d_bottom">
+            <div class="b_box">
+                <h3>Quick Link</h3>
+                <ul>
+                    <li><i class='bx bxs-chevron-right'></i>About Us</li>
+                    <li><i class='bx bxs-chevron-right'></i>Contact Us</li>
+                    <li><i class='bx bxs-chevron-right'></i>Privacy Policy</li>
+                    <li><i class='bx bxs-chevron-right'></i>Terms & Conditions</li>
+                    <li><i class='bx bxs-chevron-right'></i>FAQs & Help</li>
+                </ul>
+            </div>
+            <div class="b_box">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class='bx bx-current-location'></i>123 Street, New York, USA</li>
+                    <li><i class='bx bxs-phone'></i>+012 345 67890</li>
+                    <li><i class='bx bxs-envelope'></i>info@example.com</li>
+                </ul>
+                <p class="con_i">
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-instagram-alt' ></i>
+                    <i class='bx bxl-linkedin' ></i>
+                </p>
+            </div>
+            <div class="b_box">
+                <h3>Apps</h3>
+                <ul>
+                    <li><i class='bx bxl-whatsapp-square'></i>WhatsApp</li>
+                    <li><i class='bx bx-happy-heart-eyes'></i>HappyLearning</li>
+                </ul>
+            </div>
+            <div class="b_box">
+                <h3>Newsletter</h3>
+                <p class="news">Contact with us through your E-Mail <br> We'll try to connect with you <br> Within 24 Hours.</p>
+            </div>
+        </div>
+    </section>
+    <!--JAVASCRIPT-->
+    <script src="script2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.5s;
+}
+.logo i{
+    color: #40E0D0;
+    font-size: 30px;
+}
+nav h2{
+    color: #40E0D0;
+    margin-left: -475px;
+}
+nav ul{
+    display: flex;
+    margin-right: -110px;
+}
+nav ul li a{
+    padding: 10px 22px;
+    color:  #212f3d;
+    border-radius: 2px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    background: #40E0D0;
+    color: #fff;
+    border: none;
+}
+/*HOME TOP*/
+section{
+    margin-top: 60px;
+    padding: 100px;
+}
+.portion-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.portion-2 .left h4{
+    color: #40E0D0;
+    font-weight: bold;
+}
+.portion-2 .left h1{
+    color: #212f3d;
+    font-size: 3rem;
+}
+.portion-2 .left p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.top_btn{
+    margin-top: 30px;
+}
+.btn{
+    padding: 12px 34px;
+    background: #40E0D0;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    margin: 5px;
+}
+.top_btn .btn:nth-child(2){
+    background: #212f3d;
+}
+.btn:hover{
+    background: #212f3d;
+    box-shadow: 0 10px 34px rgba(0,0,0,0.14);
+    cursor: pointer;
+}
+.top_btn .btn:nth-child(2):hover{
+    background: #40E0D0;
+}
+.right img{
+    width: 500px;
+    margin-left: 20px;
+}
+/*HOME 4 CARDS*/
+.cards-4{
+    padding: 100px;
+    margin-top: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cards{
+    background: #ebf3f1;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.cards:hover{
+    background: #40E0D0;
+    color: #fff;
+    transform: translateY(-10px);
+}
+.cards i{
+    margin-top: 5px;
+    font-size: 70px;
+    margin-bottom: 5px;
+    color: #40E0D0;
+    transition: color 0.3s ease;
+}
+.cards:hover i {
+    color: white;
+    transform: translateY(-5px);
+}
+.cards h5{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+.cards p{
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+/*HOME PAGE ABOUT US*/
+.aboutus{
+    margin-top: -50px;
+}
+.aboutus img{
+    margin-right: 20px;
+    width: 500px;
+}
+.aboutus h4{
+    color: #40E0D0;
+    font-weight: bold;
+}
+.aboutus h2{
+    color: #212f3d;
+    font-size: 2.7rem;
+}
+.aboutus p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.aboutus .skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboutus .skills .skills-3 i{
+    color: #40E0D0;
+}
+.aboutus button{
+    margin-top: 30px;
+}
+/*COURSE CATEGORIES*/
+.categories{
+    margin-top: -50px;
+}
+.categories h4{
+    color: #40E0D0;
+    font-weight: bold;
+    text-align: center;
+}
+.categories h2{
+    color: #212f3d;
+    font-size: 2.7rem;
+    text-align: center;
+}
+.categories .course_categories{
+    width: 1150px;
+    height: 450px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.course_categories .cc1{
+    width: 700px;
+}
+.cc1 .cc3 img{
+    width: 700px;
+    height: 225px;
+}
+.cc1 .cc5{
+    display: flex;
+    align-items: center;
+}
+.cc1 .cc5 img{
+    width: 350px;
+    height: 225px;
+    margin-right: 5px;
+}
+.cc2 img{
+    height: 450px;
+    width: 450px;
+    margin: 5px;
+}
+/*POPULAR COURSES*/
+.courses{
+    margin-top: -50px;
+}
+.courses h4{
+    color: #40E0D0;
+    font-weight: bold;
+    text-align: center;
+}
+.courses h2{
+    color: #212f3d;
+    font-size: 2.7rem;
+    text-align: center;
+}
+.courses .p_courses{
+    width: 1150px;
+    height: 350px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.courses .p_courses .courses_box{
+    width: 373px;
+    background: #ebf3f1;
+    margin: 10px;
+}
+.courses_box img{
+    width: 373px;
+    height: 250px;
+}
+.courses_box h3{
+    margin-top: 10px;
+    color: #212f3d;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.courses_box i{
+    color: #40E0D0;
+}
+.courses_box p{
+    text-align: center;
+    color: #212f3d;
+}
+.courses_box .bld{
+    font-size: 1.2rem;
+    font-weight: 1000;
+    margin-top: 10px;
+}
+/*INSTRUCTORS*/
+.instructors{
+    margin-top: -50px;
+}
+.instructors h4{
+    color: #40E0D0;
+    text-align: center;
+    font-weight: bold;
+}
+.instructors h2{
+    color: #212f3d;
+    font-size: 2.7rem;
+    text-align: center;
+}
+.instructors .d_instructors{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.d_instructors .instructors_box{
+    margin: 10px;
+    width: 250px;
+    margin-top: 50px;
+    background: #ebf3f1;
+}
+.instructors_box img{
+    width: 250px;
+}
+.instructors_box p{
+    text-align: center;
+    color: #212f3d;
+    margin-top: 10px;
+}
+.instructors_box i{
+    color: #40E0D0;
+    font-size: 1.9rem;
+}
+.instructors_box h3{
+    margin-top: 10px;
+    color: #212f3d;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.instructors_box .bld{
+    font-size: 1.2rem;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+/*TESTIMONIALS*/
+.testimonials{
+    margin-top: -50px;
+}
+.testimonials h4{
+    color: #40E0D0;
+    text-align: center;
+    font-weight: bold;
+}
+.testimonials h2{
+    color: #212f3d;
+    font-size: 2.7rem;
+    text-align: center;
+}
+.testimonial-slider {
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.testimonial-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.testimonial-slide {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+.testimonial-slide img{
+    width: 150px;
+    border-radius: 50%;
+}
+.testimonial-slide p {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: #212f3d;
+}
+.testimonial-slide h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #40E0D0;
+}
+.testimonial-slider .active {
+    opacity: 1;
+}
+/*BOTTOM*/
+.bottom{
+    margin-top: -50px;
+    background: #00000e;
+}
+.bottom .d_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 98%;
+    height: 200px;
+}
+.d_bottom .b_box{
+    height: 100%;
+    width: 25%;
+}
+.b_box{
+    color: #fff;
+}
+.b_box h3{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.b_box li{
+    font-size: 1.2rem;
+    margin: 8px;
+    cursor: pointer;
+}
+.b_box li i{
+    margin-right: 8px;
+}
+.b_box .con_i{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.b_box .con_i i{
+    font-size: 1.2rem;
+    border: 0.5px solid white;
+    border-radius: 30%;
+    padding: 3px;
+    cursor: pointer;
+}
+.b_box .news{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.b_box input{
+    width: 100%;
+    height: 50px;
+}
+.b_box button{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+/*CONTACT PAGE STYING*/
+.contact_sec{
+    margin-top: -50px;
+}
+.contact_sec h4{
+    color: #40E0D0;
+    text-align: center;
+    font-weight: bold;
+}
+.contact_sec h2{
+    color: #212f3d;
+    font-size: 2.7rem;
+    text-align: center;
+}
+.contact_sec .box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.contact_sec .box1{
+    margin: 10px;
+    width: 380px;
+}
+.box1 h3{
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    color: #212f3d;
+}
+.box1 p{
+    font-size: 1.2rem;
+    color: #212f3d;
+}
+.box1 .cnc{
+    display: flex;
+    margin-top: 10px;
+}
+.cnc i{
+    color: #40E0D0;
+    font-size: 1.7rem;
+    margin-right: 8px;
+}
+.cnc .blue{
+    color: #40E0D0;
+    font-size: 1.3rem;
+}
+.cnc p{
+    color: #212f3d;
+}
+.contact_sec img{
+    width: 320px;
+}
+.box1 form div{
+    display: flex;
+}
+form div #name{
+    margin-right: 12px;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form .txtarea{
+    width: 100%;
+    height: 98px;
+}
+form button{
+    width: 380px;
+}
